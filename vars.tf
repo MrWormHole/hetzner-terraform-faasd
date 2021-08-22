@@ -1,12 +1,10 @@
 variable "hcloud_token" {
-    // default = "XXX-YOUR-TOKEN-XXX"
-    default = "5j619BPQlDDDt85mRRosXBdO2x2MUja1MEeqKN1rvIrWoT8AeZHuD5Yd4FCTjXcD"
+    default = "XXX-YOUR-TOKEN-XXX"
     type    = string
 }
 
 variable "ssh_keys" {
-    // default = ["XXX-YOUR-SSH-KEY-NAME-XXX"]
-    default = ["Talha"]
+    default = ["XXX-YOUR-SSH-KEY-NAME-XXX"]
     type    = list
 }
 
